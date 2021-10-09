@@ -1,0 +1,58 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* add heading and paragraph colors */
+header, main, footer{
+    width: 760px;
+
+}
+
+a:link {
+    color: rgb(3, 102, 196);
+    font-weight: bold;
+  }
+
+header, footer {
+    margin: 0 auto;
+    border: 1px solid #bbbbbb;
+    padding: .5rem;
+    background-color: #ff9949;
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    grid-template-columns: 122px 1fr;
+}
+
+main{
+    margin: 1rem auto;
+    background-color: #49f0ff;
+    padding: 1rem;
+}
+
+footer{
+    grid-template-columns: 122px 1fr;
+}
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    color: #196823;
+    font-size: 2.2rem;
+}
+
+/* Class Selectors */
+.logo{ 
+    width: 100px;
+    height: auto;
+}
