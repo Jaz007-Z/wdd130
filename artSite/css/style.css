@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .mainnav a {
     display: block;
     padding: 1rem;
@@ -24,19 +25,23 @@ body {
     box-shadow: 5px 4px 4px #ACBFD6;
 
 }
+
 .mainnav a:hover {
     color: #abe;
     background-color: black;
 }
+
 .mainnav li {
     flex: 1 1 auto;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     font-family: 'Ephesis', cursive;
 }
 
-header{
+header {
     width: 760px;
 }
 
