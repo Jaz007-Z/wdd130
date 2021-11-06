@@ -33,11 +33,29 @@ body {
 
 .mainnav li {
     flex: 1 1 auto;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #abe;
+    border: 1px solid#444;
+    box-shadow: 5px 4px 4px #ACBFD6
+}
+
+.mainnav p {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.tyopography {
+    font-family: 'Ephesis', cursive;
+    font-size: 1.15em;
+    font-weight: bold;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Ephesis', cursive;
 }
 
